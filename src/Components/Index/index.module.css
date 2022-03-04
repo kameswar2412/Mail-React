@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+.emailView{
+    width: 30%;
+    padding: 10px;
+    text-align: justify;
+    overflow: hidden;
+
+}
+.item{
+    height: 120px;
+    overflow: hidden;
+    padding: 15px  20px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+.item p{
+    margin: 0px;
+    overflow: hidden;
+    text-align: justify;
+
+}
+.viewLook{
+    width: 70%;
+    height: 90vh;
+    padding: 10px;
+}
+.beforeView{
+    background-image: url("../assets/img/message.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: rgb(92, 163, 165);
+}
